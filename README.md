@@ -1,87 +1,69 @@
-# EE 128 – Microcontroller Systems Laboratory (FRDM-K64F)
+<h1>EE 128 – Microcontroller Systems Laboratory (FRDM-K64F)</h1>
 
-This repository contains my laboratory work for EE 128 (Microcontroller Systems) at the University of California, Riverside. The labs focus on hardware–software integration using the FRDM-K64F (MK64FN1M0VLL12) microcontroller, covering digital I/O, interrupts, timers, ADC, motor control, and serial communication protocols.
+<p>
+This repository contains laboratory work for EE 128 (Microcontroller Systems) at the University of California, Riverside.
+The labs focus on hardware–software integration using the FRDM-K64F (MK64FN1M0VLL12) microcontroller, covering digital I/O,
+interrupts, timers, ADC, motor control, and serial communication protocols.
+</p>
 
+<p>
 All labs include source code, schematics, and documentation demonstrating low-level embedded systems programming and hardware interfacing.
+</p>
 
-## Labs Overview
-- Lab 1 – Schematic Design & Cadence Capture
+<h2>Labs Overview</h2>
 
-Installed and configured Cadence Capture CIS
+<h3>Lab 1 – Schematic Design &amp; Cadence Capture</h3>
+<ul>
+  <li>Installed and configured Cadence Capture CIS</li>
+  <li>Designed basic analog circuits (555 timer)</li>
+  <li>Created microcontroller schematics with LEDs and DIP switches</li>
+  <li>Practiced pin mapping and schematic documentation</li>
+</ul>
 
-Designed basic analog circuits (555 timer)
+<h3>Lab 2 – Digital I/O, Counters, and Rotators</h3>
+<ul>
+  <li>Implemented an 8-bit bidirectional counter</li>
+  <li>Implemented a one-hot LED rotator</li>
+  <li>Used DIP switches for direction control</li>
+  <li>Interfaced LED bars with GPIO ports</li>
+</ul>
 
-Created microcontroller schematics with LEDs and DIP switches
+<h3>Lab 3 – Interrupts &amp; ADC</h3>
+<ul>
+  <li>Built an interrupt-driven system</li>
+  <li>Displayed ADC voltage and counter values on dual 7-segment displays</li>
+  <li>Used external interrupts and ADC0</li>
+  <li>Measured interrupt latency using an oscilloscope</li>
+</ul>
 
-Practiced pin mapping and schematic documentation
+<h3>Lab 4 – Timers &amp; PWM Measurement</h3>
+<ul>
+  <li>Generated PWM signals using an Arduino</li>
+  <li>Measured PWM duty cycle using FTM input capture</li>
+  <li>Displayed duty cycle on 7-segment displays</li>
+  <li>Learned timer prescaling and signal timing</li>
+</ul>
 
+<h3>Lab 5 – Stepper Motor Control</h3>
+<ul>
+  <li>Controlled a bipolar stepper motor using an L298N H-bridge</li>
+  <li>Implemented CW/CCW rotation with variable speed</li>
+  <li>Used DIP switches for direction and speed control</li>
+  <li>Applied correct stepping sequences and delay timing</li>
+</ul>
 
-Lab 2 – Digital I/O, Counters, and Rotators
+<h3>Lab 6 – Serial Communication (UART, I2C, SPI)</h3>
+<ul>
+  <li>Read accelerometer and magnetometer data via I2C</li>
+  <li>Sent sensor data to a PC using UART</li>
+  <li>Established SPI communication between the K64F and Arduino</li>
+  <li>Measured communication latency using GPIO timing pulses and an oscilloscope</li>
+</ul>
 
-Implemented an 8-bit bidirectional counter
-
-Implemented a one-hot LED rotator
-
-Used DIP switches for direction control
-
-Interfaced LED bars with GPIO ports
-
-
-Lab 3 – Interrupts & ADC
-
-Built an interrupt-driven system
-
-Displayed ADC voltage and counter values on dual 7-segment displays
-
-Used external interrupts and ADC0
-
-Measured interrupt latency using an oscilloscope
-
-
-Lab 4 – Timers & PWM Measurement
-
-Generated PWM using an Arduino
-
-Measured PWM duty cycle using FTM input capture
-
-Displayed duty cycle on 7-segment displays
-
-Learned timer prescaling and signal timing
-
-
-Lab 5 – Stepper Motor Control
-
-Controlled a bipolar stepper motor using L298N H-bridge
-
-Implemented CW/CCW rotation with variable speed
-
-Used DIP switches for direction and speed control
-
-Applied correct stepping sequences and delay timing
-
-
-Lab 6 – Serial Communication (UART, I2C, SPI)
-
-Read accelerometer and magnetometer data via I2C
-
-Sent sensor data to a PC using UART
-
-Established SPI communication between K64F and Arduino
-
-Measured communication latency using GPIO timing pulses and an oscilloscope
-
-
-
-
-
-Tools
-
-FRDM-K64F (MK64FN1M0VLL12)
-
-Cadence Capture CIS
-
-Arduino Uno
-
-
-
-Oscilloscope & logic timing analysis
+<h2>Tools</h2>
+<ul>
+  <li>FRDM-K64F (MK64FN1M0VLL12)</li>
+  <li>Cadence Capture CIS</li>
+  <li>Arduino Uno</li>
+  <li>Oscilloscope and logic timing analysis</li>
+</ul>
